@@ -1,12 +1,11 @@
 # Daily Offender KPI Analysis Report
-This Repository will contain SQL Server Project done to prepare Network Daily Offender KPI report.
 
 Report Will Publish Following Output:
 
 1.	KPI Name
 2.	Network element details and their Daily KPI trends of 45 Days
 3.	Last Day data to help analysis and deduce the conclusion like:
-    a.	Traffic volume carried
+                a.	Traffic volume carried
 		b.	Total Failure
 		c.	Percentage Contribution in network
 		d.	Ranking in Network
