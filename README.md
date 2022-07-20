@@ -7,18 +7,18 @@ These set of SQL queries provide information about:
 1.	KPI Calculation
 2.	Business Matrix implementation.
 3.	Tips to write effective query.
-4.      Tips for query optimization to improve report performance.
-5.      Time series analysis
-6.      Logical solution to handle differnt scenario by using temp table.
-7.      Avoid mistake to get correct output.
-8.      Appropriate data type consideration.
-9.      Jinja parameter in SQL Query for Apache superset.
+4.  Tips for query optimization to improve report performance.
+5.  Time series analysis
+6.  Logical solution to handle differnt scenario by using temp table.
+7.  Avoid mistake to get correct output.
+8.  Appropriate data type consideration.
+9.  Jinja parameter in SQL Query for Apache superset.
     
 Attached Queries with various function Used:
 
 1.	String function: String_Agg, String_Split, SUBSTRING, Quotename, LEN, TRIM, UPPER/LOWER, REPLACE, CONCAT etc.
-2.      Json extract function-JSON_EXTRACT_ARRAY_ELEMENT_TEXT, JSON_EXTRACT_PATH_TEXT.
-3.      Window Function: DENSE_RANK, ROW NUMBER, LEAD, LAG, LAST_VALUE, LEAST
+2.  Json extract function-JSON_EXTRACT_ARRAY_ELEMENT_TEXT, JSON_EXTRACT_PATH_TEXT.
+3.  Window Function: DENSE_RANK, ROW NUMBER, LEAD, LAG, LAST_VALUE, LEAST
 4.	Numeric Function: ROUND, SUM, ISNULL
 5.	Aggregate Function: SUM, AVG, COUNT, MEDIAN, STDDEV. 
 6.	Date & Time Function: DATEADD, DATEDIFF, GETDATE  
@@ -36,18 +36,12 @@ Following Statement/Queries used:
 Following concept used:
 
 1.	Common Table Expression(CTE)
-2.      Subqueries(SELECT and WHERE statment)
-3.      Multi Table Join
-2.      Variable Declaration
-2.	Appropriate data type to define variable
-3.	Write Dynamic SQL query 
-4.	Assign value to variable in case of dynamic SQL Queries
-5.	How to insert variable in dynamic SQL Query
-6.	SQL JOIN (INNER JOIN)
-7.	SQL PIVOT (FOR Data Trends)
-8.	Conversion of rows value (Date) into Column Name
-9.	How to verify Dynamic SQL code by printing query
-10.	How to execute SQL Query
+2.  Subqueries(SELECT and WHERE statment)
+3.  Multi Table Join
+4.  Variable Declaration
+5.	Write Dynamic SQL query 
+6.	SQL PIVOT (FOR Data Trends)
+
 
 
 
