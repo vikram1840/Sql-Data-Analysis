@@ -1,23 +1,28 @@
-# Daily Offender KPI Analysis Report
+# This Repository contains details about SQL logic implemented in real business scenario.
 
-Report Will Publish Following Output:
+Logic helped to perform advanced data analytics and report preparation for differnt segment of businesses- Operations, Finance, Marketing etc.
 
-1.	KPI Name
-2.	Network element details and their Daily KPI trends of 45 Days
-3.	Last Day data to help analysis and deduce the conclusion like:
-                a.	Traffic volume carried
-		b.	Total Failure
-		c.	Percentage Contribution in network
-		d.	Ranking in Network
+These set of SQL queries provide information about:
+
+1.	KPI Calculation
+2.	Business Matrix implementation.
+3.	Tips to write effective query.
+4.      Tips for query optimization to improve report performance.
+5.      Time series analysis
+6.      Logical solution to handle differnt scenario by using temp table.
+7.      Avoid mistake to get correct output.
+8.      Appropriate data type consideration.
+9.      Jinja parameter in SQL Query for Apache superset.
     
-Following SQL Function Used to write this Query:
+Attached Queries with various function Used:
 
-1.	String function: Quotename (To add Delimiters in input String), LEN
-2.	Numeric Function: ROUND, SUM, ISNULL
-3.	Aggregate Function: SUM, AVG, COUNT 
-4.	Date & Time Function: DATEADD, GETDATE 
-5.	RANKING FUNCTION: DENSE_RANK
-6.	Conversion: CAST, CONVERT
+1.	String function: String_Agg, String_Split, SUBSTRING, Quotename, LEN, TRIM, UPPER/LOWER, REPLACE, CONCAT etc.
+2.      Json extract function-JSON_EXTRACT_ARRAY_ELEMENT_TEXT, JSON_EXTRACT_PATH_TEXT.
+3.      Window Function: DENSE_RANK, ROW NUMBER, LEAD, LAG, LAST_VALUE, LEAST
+4.	Numeric Function: ROUND, SUM, ISNULL
+5.	Aggregate Function: SUM, AVG, COUNT, MEDIAN, STDDEV. 
+6.	Date & Time Function: DATEADD, DATEDIFF, GETDATE  
+7.	Conversion: CAST, CONVERT
 
 Following Statement/Queries used:
 
@@ -28,9 +33,12 @@ Following Statement/Queries used:
 5.	WHERE STATEMENT
 6.	HAVING STATEMENT
 
-Following concept used here:
+Following concept used:
 
-1.	Variable Declaration
+1.	Common Table Expression(CTE)
+2.      Subqueries(SELECT and WHERE statment)
+3.      Multi Table Join
+2.      Variable Declaration
 2.	Appropriate data type to define variable
 3.	Write Dynamic SQL query 
 4.	Assign value to variable in case of dynamic SQL Queries
