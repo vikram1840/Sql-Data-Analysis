@@ -1,0 +1,34 @@
+Daily Offender KPI Analysis Report
+Report Will Publish Following Output:
+
+KPI Name
+Network element details and their Daily KPI trends of 45 Days
+Last Day data to help analysis and deduce the conclusion like: a. Traffic volume carried b. Total Failure c. Percentage Contribution in network d. Ranking in Network
+Following SQL Function Used to write this Query:
+
+String function: Quotename (To add Delimiters in input String), LEN
+Numeric Function: ROUND, SUM, ISNULL
+Aggregate Function: SUM, AVG, COUNT
+Date & Time Function: DATEADD, GETDATE
+RANKING FUNCTION: DENSE_RANK
+Conversion: CAST, CONVERT
+Following Statement/Queries used:
+
+CASE Statement
+GROUP BY Clause
+ORDER BY Clause
+Over Clause
+WHERE STATEMENT
+HAVING STATEMENT
+Following concept used here:
+
+Variable Declaration
+Appropriate data type to define variable
+Write Dynamic SQL query
+Assign value to variable in case of dynamic SQL Queries
+How to insert variable in dynamic SQL Query
+SQL JOIN (INNER JOIN)
+SQL PIVOT (FOR Data Trends)
+Conversion of rows value (Date) into Column Name
+How to verify Dynamic SQL code by printing query
+How to execute SQL Query
