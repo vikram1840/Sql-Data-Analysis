@@ -11,7 +11,7 @@ These set of SQL queries provide information about:
 5.  Time series analysis
 6.  Logical solution to handle differnt scenario by using temp table.
 7.  Avoid mistake to get correct output.
-8.  Appropriate data type consideration.
+8.  Appropriate data type conversion.
 9.  Jinja parameter in SQL Query for Apache superset.
     
 Attached Queries with various function Used:
